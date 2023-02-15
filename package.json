@@ -1,0 +1,29 @@
+{
+	"name": "react-app-puppeteer",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "Navin",
+	"license": "MIT",
+	"scripts": {
+		"build": "react-scripts build",
+		"prettier-watch": "onchange 'src/' -- prettier --write {{changed}}",
+		"start": "node server.js",
+		"test": "jest --verbose ./src",
+		"test-e2e": "jest --verbose ./e2e"
+	},
+	"devDependencies": {
+		"css-loader": "3.4.2",
+		"jest": "25.2.4",
+		"prettier": "2.0.2"
+	},
+	"dependencies": {
+		"@types/jest": "25.1.4",
+		"express": "4.17.1",
+		"jest-puppeteer": "4.4.0",
+		"onchange": "6.1.0",
+		"puppeteer": "2.1.1",
+		"react": "16.13.1",
+		"react-dom": "16.13.1",
+		"react-scripts": "^5.0.1"
+	}
+}
